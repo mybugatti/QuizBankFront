@@ -6,7 +6,7 @@ export class BaseComponent {
   showSpinner(spinnerNameType: SpinnerType) {
     this.spinner.show(spinnerNameType);
 
-    setTimeout(() => this.hideSpinner(spinnerNameType), 500);
+    setTimeout(() => this.hideSpinner(spinnerNameType), 750);
 
   }
   hideSpinner(spinnerNameType: SpinnerType) {

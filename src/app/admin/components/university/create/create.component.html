@@ -1,0 +1,10 @@
+<mat-form-field appearance="fill" class="university-create">
+    <mat-label>University Name</mat-label>
+    <input matInput #txtName>
+  </mat-form-field>
+  <mat-form-field appearance="fill" class="university-create">
+    <mat-label>University Description</mat-label>
+    <input matInput #txtDescription>
+  </mat-form-field>
+
+  <button mat-raised-button class="btn" color="primary" (click)="create(txtName,txtDescription)">Create</button>

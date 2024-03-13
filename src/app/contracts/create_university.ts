@@ -1,4 +1,4 @@
-export class create_university {
+export class Create_University {
     UniversityName : string;
     UniversityDescription:string;
 }

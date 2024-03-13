@@ -31,7 +31,7 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   providers: [
     provideAnimationsAsync(),
-    { provide: "baseUrl", useValue: "https://localhost:7243/api", multi :true }
+    { provide: "baseUrl", useValue: "https://reqres.in/api", multi :true }
   ],
   bootstrap: [AppComponent]
 })

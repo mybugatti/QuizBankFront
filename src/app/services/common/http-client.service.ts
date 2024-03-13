@@ -19,6 +19,7 @@ export class HttpClientService {
     else
     url = `${this.url(requestParameter)}${id ? `/${id}` : ""}${requestParameter.queryString ? `?${requestParameter.queryString}` : ""}`;
 
+    console.log('GET....', url)
     return this.httpClient.get<T>(url, { headers: requestParameter.headers });
   }
 
